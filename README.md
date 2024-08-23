@@ -5,8 +5,7 @@
 
 
 # AIM:
-To Develop a python program to Plot a time series data (population/ market price of a commodity
-/temperature.
+To Develop a python program to Plot a time series data ( stock market price ).
 # ALGORITHM:
 Import the dataset from a CSV file using pandas and load it into a DataFrame.
 
