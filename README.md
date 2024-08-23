@@ -1,15 +1,22 @@
-# Ex.No: 01A PLOT A TIME SERIES DATA
+###  Development by Thiyagarajan A 
+###  Register no: 212222240110 
 ###  Date: 
+# Ex.No: 01A PLOT A TIME SERIES DATA
+
 
 # AIM:
 To Develop a python program to Plot a time series data (population/ market price of a commodity
 /temperature.
 # ALGORITHM:
-1. Import the required packages like pandas and matplot
-2. Read the dataset using the pandas
-3. Calculate the mean for the respective column.
-4. Plot the data according to need and can be altered monthly, or yearly.
-5. Display the graph.
+Import the dataset from a CSV file using pandas and load it into a DataFrame.
+
+Display the first few rows of the dataset to understand its structure.
+
+Convert the 'Date' column to a datetime format and set it as the DataFrame index.
+
+Create a time series plot of the 'Open' stock prices using matplotlib.
+
+Add titles, labels, gridlines, and a legend, then display the plot.
 # PROGRAM:
 ```
 import pandas as pd
